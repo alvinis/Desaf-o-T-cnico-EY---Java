@@ -1,15 +1,15 @@
-package com.leonel.entrevista.domain.service.impl;
+package com.jencys.entrevista.domain.service.impl;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.leonel.entrevista.data.dao.PhoneDao;
-import com.leonel.entrevista.data.dao.UserDao;
-import com.leonel.entrevista.data.entity.User;
-import com.leonel.entrevista.domain.dto.ErrorMessage;
-import com.leonel.entrevista.domain.dto.UserDTO;
-import com.leonel.entrevista.domain.dto.UserPassword;
-import com.leonel.entrevista.domain.service.UserService;
-import com.leonel.entrevista.domain.utils.JwtTokenUtil;
+import com.jencys.entrevista.data.dao.PhoneDao;
+import com.jencys.entrevista.data.dao.UserDao;
+import com.jencys.entrevista.data.entity.User;
+import com.jencys.entrevista.domain.dto.ErrorMessage;
+import com.jencys.entrevista.domain.dto.UserDTO;
+import com.jencys.entrevista.domain.dto.UserPassword;
+import com.jencys.entrevista.domain.service.UserService;
+import com.jencys.entrevista.domain.utils.JwtTokenUtil;
 import io.jsonwebtoken.MalformedJwtException;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -24,7 +24,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 
 class UserServiceImplTest {
-    private static final String REGISTER_USER_PATH = "src/test/java/com/leonel/entrevista/resources/register_user_body.json";
+    private static final String REGISTER_USER_PATH = "src/test/java/com/jencys/entrevista/resources/register_user_body.json";
 
     private UserDao userDao;
     private PhoneDao phoneDao;
