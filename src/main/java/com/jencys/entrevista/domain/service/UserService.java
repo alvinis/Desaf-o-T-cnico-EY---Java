@@ -1,8 +1,8 @@
-package com.leonel.entrevista.domain.service;
+package com.jencys.entrevista.domain.service;
 
-import com.leonel.entrevista.data.entity.User;
-import com.leonel.entrevista.domain.dto.UserDTO;
-import com.leonel.entrevista.domain.dto.UserPassword;
+import com.jencys.entrevista.data.entity.User;
+import com.jencys.entrevista.domain.dto.UserDTO;
+import com.jencys.entrevista.domain.dto.UserPassword;
 import org.springframework.http.ResponseEntity;
 
 import java.util.List;

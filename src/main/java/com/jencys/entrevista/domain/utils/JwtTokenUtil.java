@@ -1,6 +1,6 @@
-package com.leonel.entrevista.domain.utils;
+package com.jencys.entrevista.domain.utils;
 
-import com.leonel.entrevista.data.entity.User;
+import com.jencys.entrevista.data.entity.User;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;

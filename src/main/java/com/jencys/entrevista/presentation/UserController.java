@@ -1,8 +1,8 @@
-package com.leonel.entrevista.presentation;
+package com.jencys.entrevista.presentation;
 
-import com.leonel.entrevista.domain.dto.UserDTO;
-import com.leonel.entrevista.domain.dto.UserPassword;
-import com.leonel.entrevista.domain.service.UserService;
+import com.jencys.entrevista.domain.dto.UserDTO;
+import com.jencys.entrevista.domain.dto.UserPassword;
+import com.jencys.entrevista.domain.service.UserService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;

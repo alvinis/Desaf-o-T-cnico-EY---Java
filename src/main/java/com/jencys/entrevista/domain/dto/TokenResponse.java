@@ -1,4 +1,4 @@
-package com.leonel.entrevista.domain.dto;
+package com.jencys.entrevista.domain.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,6 +1,6 @@
-package com.leonel.entrevista.data.dao;
+package com.jencys.entrevista.data.dao;
 
-import com.leonel.entrevista.data.entity.User;
+import com.jencys.entrevista.data.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

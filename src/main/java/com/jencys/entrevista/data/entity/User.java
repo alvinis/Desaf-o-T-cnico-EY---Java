@@ -1,4 +1,4 @@
-package com.leonel.entrevista.data.entity;
+package com.jencys.entrevista.data.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.*;
